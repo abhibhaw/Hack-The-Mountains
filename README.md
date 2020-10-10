@@ -1,7 +1,7 @@
 # Hack-The-Mountains
 # TRACONA-The Covid Tracker
 
-<h2>Features<h2>
+<h2>Features</h2>
 <ul>
  <li>User Friendly Interface</li>
  <li>Time Management </li>
