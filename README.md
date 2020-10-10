@@ -14,6 +14,13 @@ This web application will give you the number of active cases,recovered cases, n
  <li>Access Control and User Management</li>
 </ul>
 
+<h2>Software Used</h2>
+  <ul>
+    <li>
+    <li>
+    <li>
+  </ul>
+
 <h2>Members</h2>
 <ul>
   <li>Sumana Basu</li>
