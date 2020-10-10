@@ -15,6 +15,8 @@ import {
 import '../App.css';
 import TopNews from './TopNews';
 import TopNewsProvider from './TopNewsProvider';
+import QR from '../qr.jpeg';
+
 
 class LocalData extends Component {
   state = {
@@ -123,6 +125,10 @@ class LocalData extends Component {
           <Container fluid>
             <Row style={{ marginBottom: '35px', marginLeft: '5px' }}>
               <Col sm={4}>
+              <div>
+              <img style={{width: '70%', height:'70%', paddingTop:'20%'}} src={QR} />
+              <h5 style={{paddingLeft: '30%'}}><a href="https://go.echoar.xyz/Qai4" target="blank">See the virus in AR</a></h5>
+              </div>
               </Col>
               <Col sm={8} style={{ textAlign: 'center', marginTop: '40px' }}>
                 <div style={{color: '#0a1963'}}>

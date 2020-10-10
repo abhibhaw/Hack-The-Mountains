@@ -19,34 +19,34 @@ const TopBar = props => {
             style={{ marginLeft: '20px', marginTop: '-10px' }}
             href='/'
           >
-            <FontAwesomeIcon
-              icon={faLungsVirus}
-              style={{ color: 'red', fontSize: '30px' }}
-            />{' '}
+          <div className='logo'>
+            <img style={{display: 'inline-block'}}src='https://www.flaticon.com/svg/static/icons/svg/2790/2790616.svg'/>
             TRACONA
+          </div>
+            
           </NavbarBrand>
           <Nav navbar className=' float-right'>
             <NavItem>
               <NavLink href='/'>
-                <h6>HOME</h6>
+                <h6 style={{letterSpacing: '2.5px'}}>HOME</h6>
               </NavLink>
             </NavItem>
 
             <NavItem>
               <NavLink href='/about-covid-19'>
-                <h6>COVID-19</h6>
+                <h6 style={{letterSpacing: '2.5px'}}>COVID-19</h6>
               </NavLink>
             </NavItem>
 
             <NavItem>
               <NavLink href='/prevention'>
-                <h6>PREVENTION</h6>
+                <h6 style={{letterSpacing: '2.5px'}}>PREVENTION</h6>
               </NavLink>
             </NavItem>
 
             <NavItem>
               <NavLink href='/about'>
-                <h6>ABOUT</h6>
+                <h6 style={{letterSpacing: '2.5px'}}>ABOUT</h6>
               </NavLink>
             </NavItem>
           </Nav>
