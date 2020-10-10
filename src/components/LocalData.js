@@ -123,29 +123,6 @@ class LocalData extends Component {
           <Container fluid>
             <Row style={{ marginBottom: '35px', marginLeft: '5px' }}>
               <Col sm={4}>
-                <Button
-                  disabled
-                  style={{
-                    backgroundColor: 'black',
-                    color: 'white',
-                    width: '100%',
-                  }}
-                >
-                  <h4>Top News</h4>
-                </Button>
-
-                <Card
-                  className='shadow-sm'
-                  style={{
-                    height: '435px',
-                    overflowY: 'auto',
-                  }}
-                >
-                  <TopNewsProvider
-                    loading={this.state.loading}
-                    articles={this.state.articles}
-                  />
-                </Card>
               </Col>
               <Col sm={8} style={{ textAlign: 'center', marginTop: '40px' }}>
                 <div style={{color: '#0a1963'}}>
@@ -178,7 +155,7 @@ class LocalData extends Component {
                       }}
                       className='shadow-sm'
                     >
-                      <h1 style={{ color: '#3185F0' }}>{this.state.cases}</h1>
+                      <h2 style={{ color: '#3185F0' }}>{this.state.cases}</h2>
                       <h4>Total Infected</h4>
                     </Card>
                   </Col>
@@ -192,7 +169,7 @@ class LocalData extends Component {
                       }}
                       className='shadow-sm'
                     >
-                      <h1 style={{ color: '#F03131' }}>{this.state.deaths}</h1>
+                      <h2 style={{ color: '#F03131' }}>{this.state.deaths}</h2>
                       <h4>Total Deaths</h4>
                     </Card>
                   </Col>
@@ -206,9 +183,9 @@ class LocalData extends Component {
                       }}
                       className='shadow-sm'
                     >
-                      <h1 style={{ color: '#099714' }}>
+                      <h2 style={{ color: '#099714' }}>
                         {this.state.recovered}
-                      </h1>
+                      </h2>
                       <h4>Total Recovered</h4>
                     </Card>
                   </Col>
@@ -232,9 +209,9 @@ class LocalData extends Component {
                       }}
                       className='shadow-sm'
                     >
-                      <h1 style={{ color: '#3185F0', marginTop: '-15px' }}>
+                      <h2 style={{ color: '#3185F0', marginTop: '-15px' }}>
                         {this.state.todayCases}
-                      </h1>
+                      </h2>
                       <h4>Infected Today </h4>
                     </Card>
                   </Col>
@@ -249,9 +226,9 @@ class LocalData extends Component {
                       }}
                       className='shadow-sm'
                     >
-                      <h1 style={{ color: '#F03131' }}>
+                      <h2 style={{ color: '#F03131' }}>
                         {this.state.todayDeaths}
-                      </h1>
+                      </h2>
                       <h4>Deaths Today </h4>
                     </Card>
                   </Col>
@@ -265,7 +242,7 @@ class LocalData extends Component {
                       }}
                       className='shadow-sm'
                     >
-                      <h1 style={{ color: '#F03131' }}>{mortalityRate}%</h1>
+                      <h2 style={{ color: '#F03131' }}>{mortalityRate}%</h2>
                       <h4>Mortality Rate </h4>
                     </Card>
                   </Col>
