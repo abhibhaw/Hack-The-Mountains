@@ -13,17 +13,6 @@ const GlobalDailyData = (props) => {
 
   return (
     <div>
-      <Button style={{ marginLeft: '25px' }} color='danger' onClick={toggle}>
-        <span>
-          <FontAwesomeIcon icon={faGlobe} /> Daily Update
-        </span>
-      </Button>
-      <Modal size='lg' isOpen={modal} toggle={toggle} className={className}>
-        <ModalHeader toggle={toggle}>Global Daily Data</ModalHeader>
-        <ModalBody>
-          <ChartData />
-        </ModalBody>
-      </Modal>
     </div>
   );
 };
