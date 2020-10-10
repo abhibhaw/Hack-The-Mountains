@@ -88,24 +88,9 @@ class App extends Component {
                                 defaultActiveKey='first'
                               >
                                 <Nav.Item>
-                                  <Nav.Link
-                                    className='btn-info'
-                                    eventKey='first'
-                                  >
-                                    Covid-19 Map
-                                  </Nav.Link>
-                                </Nav.Item>
-                                <Nav.Item
-                                  style={{
-                                    marginLeft: '5px',
-                                  }}
-                                >
-                                  <Nav.Link
-                                    eventKey='second'
-                                    className='btn-info'
-                                  >
-                                    All Countries
-                                  </Nav.Link>
+                                  <h2 style={{color: '#0a1963'}}>
+                                    WORLD MAP
+                                  </h2>
                                 </Nav.Item>
                               </Nav>
                             </Col>

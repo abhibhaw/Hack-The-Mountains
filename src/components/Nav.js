@@ -23,30 +23,30 @@ const TopBar = props => {
               icon={faLungsVirus}
               style={{ color: 'red', fontSize: '30px' }}
             />{' '}
-            COVID-19 (Coronavirus) Tracker
+            TRACONA
           </NavbarBrand>
           <Nav navbar className=' float-right'>
             <NavItem>
               <NavLink href='/'>
-                <h6>Home</h6>
+                <h6>HOME</h6>
               </NavLink>
             </NavItem>
 
             <NavItem>
               <NavLink href='/about-covid-19'>
-                <h6>What is COVID-19?</h6>
+                <h6>COVID-19</h6>
               </NavLink>
             </NavItem>
 
             <NavItem>
               <NavLink href='/prevention'>
-                <h6>Prevention</h6>
+                <h6>PREVENTION</h6>
               </NavLink>
             </NavItem>
 
             <NavItem>
               <NavLink href='/about'>
-                <h6>About</h6>
+                <h6>ABOUT</h6>
               </NavLink>
             </NavItem>
           </Nav>

@@ -148,10 +148,9 @@ class LocalData extends Component {
                 </Card>
               </Col>
               <Col sm={8} style={{ textAlign: 'center', marginTop: '40px' }}>
-                <div>
-                  <Button disabled style={{ backgroundColor: '#2D9707' }}>
+                <div style={{color: '#0a1963'}}>
                     <h3>Local Country's Update</h3>
-                  </Button>
+                
                 </div>
                 <div
                   style={{
@@ -277,26 +276,9 @@ class LocalData extends Component {
             <Row style={{ height: '40px', textAlign: 'center' }}>
               <Col sm={3}></Col>
               <Col sm={6}>
-                Developed by{' '}
-                <a href='https://github.com/shahibuzzaman'> Shahibuzzaman</a>
+                Developed by HackDonalds
               </Col>
-              <Col sm={3}>
-                <div>
-                  <Button
-                    outline
-                    color='info'
-                    size='sm'
-                    onClick={() => {
-                      let win = window.open('');
-                      win.location.replace(
-                        'https://github.com/shahibuzzaman/covid19-tracker-reactJS'
-                      );
-                    }}
-                  >
-                    Fork on Github
-                  </Button>
-                </div>
-              </Col>
+              <Col sm={3}></Col>
             </Row>
           </Container>
         </div>
