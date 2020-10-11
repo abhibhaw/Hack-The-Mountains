@@ -23,7 +23,11 @@ This web application will give you the number of active cases, recovered cases, 
 
 <h2>Workflow</h2>
 <h5>COVID-19 Tracker</h5>
-<p></p>
+<p>The COVID tracker keeps you updated about the information of current COVID-19
+ cases in the world. It shows the number of active cases, recovered cases, new cases, and the number of deaths in tabular form, as well as in pie chart for easy comparision.
+The most amazing feature is the world map, through which you can easily 
+get the details of Corona-virus cases in each country by hovering the mouse over the map.
+You can also view the COVID-19 statistics of a country by selecting it in the dropdown.</p>
 <h5>AR Model</h5>
 <p>A QR code is provided in the home page, scan it using your smartphone to open the AR model on your device. Also, you can click on the link below the QR code to open it on your smartphone, laptop or desktop.</p>
 <h5>Corona-Virus Game</h5>
