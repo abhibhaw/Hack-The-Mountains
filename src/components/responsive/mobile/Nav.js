@@ -19,32 +19,28 @@ const Example = (props) => {
   return (
     <div>
       <Navbar
-        color='light'
+        color='dark'
         light
         className='fixed-top'
         style={{ padding: '20px' }}
       >
-        <NavbarBrand style={{ marginLeft: '8px', fontSize: '25px' }} href='/'>
-          <FontAwesomeIcon icon={faLungsVirus} style={{ color: 'red' }} />{' '}
-          COVID-19 Tracker
-        </NavbarBrand>
+          <div className='logo' style={{color:'white'}}>
+            <img style={{display: 'inline-block'}}src='https://www.flaticon.com/svg/static/icons/svg/2790/2790616.svg'/>
+            TRACONA
+          </div>
         <NavbarToggler onClick={toggleNavbar} className='mr-2' />
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar className=' text-center' style={{ marginRight: '20px' }}>
             <NavItem>
-              <NavLink href='/'>Home</NavLink>
+              <NavLink style={{color:'white'}} href='/'>HOME</NavLink>
             </NavItem>
 
             <NavItem>
-              <NavLink href='/about-covid-19'>What is COVID-19?</NavLink>
+              <NavLink style={{color:'white'}} href='/about-covid-19'>COVID-19</NavLink>
             </NavItem>
 
             <NavItem>
-              <NavLink href='/prevention'>Prevention</NavLink>
-            </NavItem>
-
-            <NavItem>
-              <NavLink href='/about'>About</NavLink>
+              <NavLink style={{color:'white'}} href='/prevention'>PREVENTION</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

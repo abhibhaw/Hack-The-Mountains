@@ -14,6 +14,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import './Live.scss';
 import NumberFormat from 'react-number-format';
+import QR from './qr.jpeg';
 
 class Total extends Component {
   state = {
@@ -72,137 +73,22 @@ class Total extends Component {
             </Col>
           </Row>
           <Row>
-            <Col xs='6'>
-              <Card style={{ height: '40px', marginTop: '10px' }}>
-                <CardBody>
-                  <h5 style={{ marginTop: '-15px' }}>
-                    <NumberFormat
-                      value={this.state.all.cases}
-                      displayType={'text'}
-                      thousandSeparator={true}
-                      renderText={(value) => <div>{value}</div>}
-                    />
-                  </h5>
-                </CardBody>
-                <Button
-                  disabled
-                  style={{ backgroundColor: '#016A87', color: 'white' }}
-                >
-                  <h6>
-                    {' '}
-                    <FontAwesomeIcon icon={faGlobe} /> Confirmed
-                  </h6>
-                </Button>
-              </Card>
-            </Col>
-            <Col xs='6'>
-              <Card style={{ height: '40px', marginTop: '10px' }}>
-                <CardBody>
-                  <h5 style={{ marginTop: '-15px' }}>
-                    <NumberFormat
-                      value={this.state.all.deaths}
-                      displayType={'text'}
-                      thousandSeparator={true}
-                      renderText={(value) => <div>{value}</div>}
-                    />
-                  </h5>
-                </CardBody>
-                <Button
-                  disabled
-                  style={{ backgroundColor: '#DF1414', color: 'white' }}
-                >
-                  <h6>
-                    {' '}
-                    <FontAwesomeIcon icon={faGlobe} /> Deaths
-                  </h6>
-                </Button>
-              </Card>
-            </Col>
-          </Row>
-          <Row>
-            <Col xs='6'>
-              <Card style={{ height: '40px', marginTop: '50px' }}>
-                <CardBody>
-                  <h5 style={{ marginTop: '-15px' }}>
-                    <NumberFormat
-                      value={this.state.all.active}
-                      displayType={'text'}
-                      thousandSeparator={true}
-                      renderText={(value) => <div>{value}</div>}
-                    />
-                  </h5>
-                </CardBody>
-                <Button
-                  disabled
-                  style={{ backgroundColor: '#2D9707', color: 'white' }}
-                >
-                  <h6>
-                    {' '}
-                    <FontAwesomeIcon icon={faGlobe} /> Recovered
-                  </h6>
-                </Button>
-              </Card>
-            </Col>
-            <Col xs='6'>
-              <Card style={{ height: '40px', marginTop: '50px' }}>
-                <CardBody>
-                  <h5 style={{ marginTop: '-15px' }}>
-                    <NumberFormat
-                      value={this.state.all.active}
-                      displayType={'text'}
-                      thousandSeparator={true}
-                      renderText={(value) => <div>{value}</div>}
-                    />
-                  </h5>
-                </CardBody>
-                <Button
-                  disabled
-                  style={{ backgroundColor: '#FFA500', color: 'white' }}
-                >
-                  <h6>
-                    <FontAwesomeIcon icon={faGlobe} /> Active
-                  </h6>
-                </Button>
-              </Card>
+            <Col style={{ height: '300px' }}>
+            <div style={{paddingTop: '20%', paddingLeft: '10%'}}><h2><a style={{color: 'white', background: '#6c0c99', lineHeight: '70px', padding: '2%', borderRadius: '50px'}} href='https://sumana2001.github.io/Tracona/' target='blank'>{' '}Play The Corona Game!{' '}</a></h2></div>
+             <img style={{height: '300px', width: '300px'}} src={QR}/>
+             <h3 style={{color:'#20B2AA', paddingLeft: '0'}}><a style={{color: '#0b8f88'}}href="https://go.echoar.xyz/Qai4" target="blank">See the virus in AR</a></h3>
             </Col>
           </Row>
           <Row>
             <Col>
               <div
                 style={{
-                  marginTop: '60px',
-                  height: '400px',
+                  marginTop: '300px',
+                  height: '30px',
                   maxWidth: '300px',
                   width: '350px',
                 }}
               >
-                <p>Tap to see the percentage</p>
-                <Chart
-                  width={'370px'}
-                  height={'300px'}
-                  style={{}}
-                  chartType='PieChart'
-                  loader={
-                    <div style={{ marginTop: '60px' }}>Loading Chart</div>
-                  }
-                  data={[
-                    ['Task', 'Hours per Day'],
-                    ['', ''],
-                    ['Deaths', this.state.all.deaths],
-                    ['Active', this.state.all.active],
-                    ['Recovered', this.state.all.recovered],
-                  ]}
-                  options={{
-                    chartArea: {
-                      left: 10,
-                      right: 0,
-                      top: 10,
-                      bottom: 20,
-                      width: '100%',
-                      height: '100%',
-                    },
-                  }}
-                />
               </div>
             </Col>
           </Row>
@@ -217,19 +103,6 @@ class Total extends Component {
                 style={{ width: '100%' }}
               >
                 <hr></hr>
-                <Button
-                  outline
-                  color='info'
-                  size='sm'
-                  onClick={() => {
-                    let win = window.open('');
-                    win.location.replace(
-                      'https://github.com/shahibuzzaman/covid19-tracker-reactJS'
-                    );
-                  }}
-                >
-                  Fork on Github
-                </Button>
               </Navbar>
             </Col>
           </Row>

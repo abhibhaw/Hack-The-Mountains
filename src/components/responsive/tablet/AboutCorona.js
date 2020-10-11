@@ -5,8 +5,8 @@ class AboutCorona extends Component {
   render() {
     return (
       <div >
-        <div style={{margin: '80px' }}>
-          <h1 style={{textAlign: 'center'}}>COVID-19</h1>
+        <div style={{margin: '80px'}}>
+          <h1 style={{textAlign: 'center', color: '#000080'}}>COVID-19</h1>
           <br/>
           <p>COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019. COVID-19 is now a pandemic affecting many countries globally.</p>
           <p>The coronavirus family causes illnesses ranging from the common cold to more severe diseases such as severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome (MERS), according to the WHO.
