@@ -2,18 +2,23 @@
 # TRACONA-The COVID Tracker 
 
 <h2>Introduction</h2>
-<p>Tracona-The COVID Tracker is here to show you the detailed statistics of COVID-19 cases from all over the world.
-This web application will give you the number of active cases, recovered cases, new cases and number of deaths till now, of any country you want to know about. A 3D model of the Corona-Virus is added using the technology of <b>Augmented Reality.</b> Also, there is an exciting Corona-Virus <b>addictive game</b> to stay home and enjoy, it has simple controls; stay safe by dodging the Corona-Virus and try to beat your own highscore! Along with that, the app provides extra information like what Corona-Virus is, and how it spreads. Also, it will show the instructions to follow for preventing the spread of Corona-Virus.</p>
+<p><b>Tracona-The COVID Tracker</b> is here to show you the detailed statistics of COVID-19 cases from all over the world.
+This web application will give you the number of active cases, recovered cases, new cases and number of deaths till now, of any country you want to know about. A <b>3D model</b> of the Corona-Virus is added using the technology of <b>Augmented Reality</b>. Also, there is an exciting Corona-Virus <b>addictive game</b> to play at home and enjoy, it has simple controls; stay safe by dodging the Corona-Virus and try to beat your own highscore! Along with that, the app provides extra information like what Corona-Virus is, and how it spreads. Also, it will show the instructions to follow for preventing the spread of Corona-Virus.</p>
 
 
 
 <h2>Features</h2>
 <ul>
  <li>User Friendly Interface</li>
- <li>Time Management </li>
+ <li>Platform Integration</li>
+ <li>Efficient and saves time</li>
+ <li>Minimal requirements needed</li>
+ <li>Uses technology of Augmented Reality</li>
  <li>Anytime Anywhere Access</li>
  <li>Get instant insights</li>
  <li>Access Control and User Management</li>
+ <li>Cloud-hosted platform</li>
+ <li>Can be used by all age groups</li>
 </ul>
 
 <h2>Workflow</h2>
