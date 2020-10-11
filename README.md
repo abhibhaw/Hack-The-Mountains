@@ -65,6 +65,8 @@ You can also view the COVID-19 statistics of a country by selecting it in the dr
     <li>SCSS</li>
     <li>Reactstrap</li>
   </ul>
+<h2>Screenshots</h2>
+<img src="Collage1 (1).png">
 
 <h2>Members</h2>
 <ul>
