@@ -55,9 +55,6 @@ class Country extends Component {
               <strong>Deaths Today:</strong> {this.props.countries.todayDeaths}{' '}
             </CardSubtitle>
           </CardBody>
-          <Link to={`/country/${this.props.countries.country}`}>
-            <Button style={{ width: '100%' }}>More </Button>
-          </Link>
         </Card>
       </div>
     );

@@ -100,9 +100,6 @@ class Country extends Component {
                     />{' '}
                   </CardSubtitle>
                 </CardBody>
-                <Link to={`/country/${this.props.countries.country}`}>
-                  <Button style={{ width: '100%' }}>More Info </Button>
-                </Link>
               </Card>
             </Card>
           </Container>
