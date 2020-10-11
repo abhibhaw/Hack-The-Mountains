@@ -127,8 +127,8 @@ class LocalData extends Component {
             <Row style={{ marginBottom: '35px', marginLeft: '5px' }}>
               <Col sm={4}>
               <div>
-              <div style={{paddingTop: '20%'}}><h2><a style={{color: 'white', background: '#6c0c99', lineHeight: '70px', padding: '2%', borderRadius: '50px'}} href='https://sumana2001.github.io/Tracona/' target='blank'>{' '}Play The Corona Game!{' '}</a></h2></div>
-              <img style={{width: '60%', height:'70%'}} src={QR} />
+              <div style={{paddingTop: '20%', paddingLeft: '10%'}}><h2><a style={{color: 'white', background: '#6c0c99', lineHeight: '70px', padding: '2%', borderRadius: '50px'}} href='https://sumana2001.github.io/Tracona/' target='blank'>{' '}Play The Corona Game!{' '}</a></h2></div>
+              <img style={{width: '70%', height:'70%'}} src={QR} />
               <h3 style={{color:'#20B2AA', paddingLeft: '23%'}}><a style={{color: '#0b8f88'}}href="https://go.echoar.xyz/Qai4" target="blank">See the virus in AR</a></h3>
               </div>
               </Col>
