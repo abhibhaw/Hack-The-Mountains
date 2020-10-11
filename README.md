@@ -24,7 +24,10 @@ This web application will give you the number of active cases, recovered cases, 
 <h2>Workflow</h2>
 <h5>COVID-19 Tracker</h5>
 <p></p>
-<h5>
+<h5>AR Model</h5>
+<p>A QR code is provided in the home page, scan it using your smartphone to open the AR model on your device. Also, you can click on the link below the QR code to open it on your smartphone, laptop or desktop.</p>
+<h5>Corona-Virus Game</h5>
+<p>A link to the addictive Corona game is provided in home page. Click on it to enjoy the game, which is really simple and exciting to play!
 
 <h2>How it can help the community</h2>
 <ul>
