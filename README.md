@@ -10,7 +10,7 @@ of the Corona-virus using a 3D AR model powered by echoAR.</p>
 <p><b>The COVID Tracker</b> gives you the number of active cases, recovered cases, new cases and number of deaths till now, of any country you want to know about. 
 
 <p>A <b>3D Model</b> of the Corona-Virus is added using the technology of <b>Augmented Reality</b>, which gives a cool visualisation of the virus.</p>
-<br>
+
 <p> An <b>addictive game</b> of Corona-virus is available to play at home and feel relaxed. Stay safe by dodging the Corona-Virus and try to beat your own highscore! 
 </p>
 <p>Along with that, the app provides extra information like what Corona-Virus is, and how it spreads. Also, it will show the instructions to follow for preventing the spread of Corona-Virus.</p>
