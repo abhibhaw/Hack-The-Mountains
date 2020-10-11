@@ -14,6 +14,15 @@ This web application will give you the number of active cases, recovered cases, 
  <li>Access Control and User Management</li>
 </ul>
 
+<h2>How it can help the community</h2>
+<ul>
+ <li>It will spread awareness about the reality of the effect of coronavirus in the world</li>
+ <li>It will encourage people to take care of their health </li>
+ <li>It will create an interesting platform to learn about corona and to take preventive measures against it</li>
+ <li>It provides games which will help to lighten up the mood at home</li>
+ <li>It provides an interactive interface for kids to learn about corona</li>
+</ul>
+
 <h2>Software Used</h2>
   <ul>
     <li>echoAR</li>
