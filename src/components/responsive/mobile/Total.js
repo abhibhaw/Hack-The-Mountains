@@ -90,7 +90,7 @@ class Total extends Component {
                 >
                   <h6>
                     {' '}
-                    <FontAwesomeIcon icon={faGlobe} /> Confrimed
+                    <FontAwesomeIcon icon={faGlobe} /> Confirmed
                   </h6>
                 </Button>
               </Card>
