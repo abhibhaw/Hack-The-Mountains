@@ -2,8 +2,18 @@
 # TRACONA-The COVID Tracker 
 
 <h2>Introduction</h2>
-<p><b>Tracona-The COVID Tracker</b> is here to show you the <b>detailed statistics</b> of COVID-19 cases from all over the world.
-This web application will give you the number of active cases, recovered cases, new cases and number of deaths till now, of any country you want to know about. A <b>3D model</b> of the Corona-Virus is added using the technology of <b>Augmented Reality</b>. Also, there is an exciting Corona-Virus <b>addictive game</b> to play at home and enjoy, it has simple controls; stay safe by dodging the Corona-Virus and try to beat your own highscore! Along with that, the app provides extra information like what Corona-Virus is, and how it spreads. Also, it will show the instructions to follow for preventing the spread of Corona-Virus.</p>
+<p>TRACONA-The COVID-19 Tracker is an exciting 3-in-1 web application which
+keeps you aware of the COVID-19 cases in the world, lightens up your mood 
+by letting you enjoy an addictive game, and provides an amazing visualisation
+of the Corona-virus using a 3D AR model powered by echoAR.</p>
+<br>
+<p><b>The COVID Tracker</b> gives you the number of active cases, recovered cases, new cases and number of deaths till now, of any country you want to know about. 
+
+<p>A <b>3D Model</b> of the Corona-Virus is added using the technology of <b>Augmented Reality</b>, which gives a cool visualisation of the virus.</p>
+<br>
+<p> An <b>addictive game</b> of Corona-virus is available to play at home and feel relaxed. Stay safe by dodging the Corona-Virus and try to beat your own highscore! 
+</p>
+<p>Along with that, the app provides extra information like what Corona-Virus is, and how it spreads. Also, it will show the instructions to follow for preventing the spread of Corona-Virus.</p>
 
 
 
